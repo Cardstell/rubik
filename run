@@ -1,0 +1,4 @@
+#!/bin/bash
+cd qtcreator/rubik
+g++ -std=c++11 -O3 -o program main.cpp -I kociemba -I kociemba/include kociemba/coordcube.c kociemba/cubiecube.c kociemba/facecube.c kociemba/search.c  -lpng -lGL -lGLU -lGLEW -lglfw
+./program
